@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 nav{
     width: 100%;
@@ -25,8 +26,8 @@ nav{
 }
 .logo{
     text-align: center;
-    width: 278px;
-    height: 277.76px;
+    width: 378px;
+    height: 377.76px;
     line-height: 300px;
 }
 nav ul li{
@@ -36,6 +37,7 @@ nav ul li{
 }
 nav ul a{
     text-decoration: none;
+    color: #00ffff;
     color: #288792;
     font-size: 17px;
     padding: 12px 30px;
@@ -45,12 +47,55 @@ nav ul li a:hover{
     border-radius: 8px;
 }
 .content{
+    margin-top: 150px;
     text-align: center;
 }
 .content h1{
     font-size: 160px;
     color: #fff;
     font-weight: 600;
+}
+
+.content h3{
+    font-size: 40px;
+    color: #ffa500;
+}
+.content a{
+padding:14px 70px;
+font-size: 16px;
+margin-top: 40px;
+border:none;
+cursor: pointer;
+box-sizing: border-box;
+overflow: hidden;
+background: #3b3b3b;
+border-radius: 30px;
+min-width: 200px;
+color:#fff ;
+z-index: 0;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 2px;
+transition: all 0.3s;
+}
+.content a::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 70%;
+    height: 100%;
+    background:linear-gradient(90deg,transparent,#ffffff71,transparent) ;
+    transition: all 1s;
+    z-index: -1;
+    transform: translateX(-120px)skew(-20deg);
+}
+.content a:hover::before{
+    transform: translateX(300px)skew(-20deg);
+}
+.content a:hover{
+    background: #00ffff;
 }
 .content a{
     text-decoration: none;
@@ -68,6 +113,7 @@ nav ul li a:hover{
     right:0;
     bottom: 0;
     z-index: -1;
+
 }
 
 

@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 nav{
     width: 100%;
@@ -69,4 +68,324 @@ nav ul li a:hover{
     right:0;
     bottom: 0;
     z-index: -1;
+}
+
+
+
+
+/* Prashanth code */
+
+.about{
+    /* background-color: rgba(0, 0, 0, 0.901); */
+}
+.abthead{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+
+.cog{
+    margin-top: 2%;
+}
+#cogimg{
+    width: 250px;
+    height: 300px;
+   
+    float: right;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* margin-top: 50px; */
+    margin-right: 50px;
+    transition: all 1s;
+    
+}
+
+.cogabt{
+    display: inline;
+}
+
+
+.coghead{
+    margin-left: 13%;
+    padding-top: 5%;
+    text-align: left;
+}
+.cogtext{
+    margin-top: 1%;
+    margin-right: 25%;
+    margin-left: 13%;
+    font-size: 150%;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.vitmas{
+    margin-top: 10%;
+}
+#vitmasimg{
+    width: 250px;
+    height: 300px;
+   
+    float: left;
+    
+    transition: all 1s;
+    
+}
+
+.vitmasabt{
+    display: inline;
+}
+
+
+.vitmashead{
+    padding-top: 4%;
+    margin-right: 12%;
+    text-align: right;
+}
+.vitmastext{
+    margin-top: 1%;
+    margin-right: 12%;
+    margin-left: 20%;
+    font-size: 150%;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.sas{
+    margin-top: 8%;
+}
+#sasimg{
+    width: 250px;
+    height: 300px;
+   
+    float: right;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* margin-top: 50px; */
+    margin-right: 50px;
+    transition: all 1s;
+    
+}
+
+.sasabt{
+    display: inline;
+}
+
+
+.sashead{
+    margin-left: 13%;
+    padding-top: 3%;
+    text-align: left;
+}
+.sastext{
+    margin-top: 1%;
+    margin-right: 25%;
+    margin-left:13%;
+    font-size: 150%;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.tracks{
+    /* background-color: rgba(0, 0, 0, 0.901); */
+    
+}
+
+.trackhead{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.track-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.track1, .track2, .track3, .track4 {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    
+  }
+  
+  .track1-title, .track2-title, .track3-title, .track4-title  {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 83%;
+    transform: translateY(-50%);
+    text-align: center;
+    transition: 0.5s;
+    color: rgb(67, 241, 67);
+  }
+  
+  .track1:hover .track1-title ,.track2:hover .track2-title , .track3:hover .track3-title, .track4:hover .track4-title {
+    top: 10px;
+    transform: translateY(0);
+
+  }
+
+    
+  .track1:hover .boximg ,.track2:hover .boximg , .track3:hover .boximg, .track4:hover .boximg {
+
+   display: none;
+    
+  }
+  
+  .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    
+    position: absolute;
+    top: 400px;
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .track1:hover .track1-hidden ,.track2:hover .track2-hidden , .track3:hover .track3-hidden, .track4:hover .track4-hidden {
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+  }
+
+
+  .boximg{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-top: 20%;
+
+  }
+
+
+.track1, .track3{
+    margin-left: 15%;
+}
+.track2, .track4{
+    margin-right: 15%;
+    
+}
+
+.track3,.track4{
+    margin-top: 5%;
+}
+
+.trackhead{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+
+
+
+.prizehead{
+     text-align: center;
+     margin-top: 15%;
+     font-size: 50px;
+     color: white;
+}
+
+.prizedes{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 35px;
+
+}
+
+
+
+/*  FAQ  */
+
+
+
+.faq-section {
+    max-width: 760px;
+    margin: 0 auto;
+    
+  }
+  
+  header {
+    margin-bottom: 70px;
+  }
+  
+  header > p {
+    font-size: 22px;
+    color: #AEB9C6;
+  }
+  
+  h2 {
+    font-size: 52px;
+    color: #f4f4f6;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  details {
+    cursor: pointer;
+  }
+  
+  h4 {
+    width: 760px;
+  }
+  
+  summary {
+    font-size: 20px;
+    color: #f4f4f6;
+    display: flex;
+    justify-item: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    
+  }
+  
+  summary::marker {
+    display: none;
+    content: "";
+  }
+  
+  span {
+    margin-top: 4px;
+    color: #f4f4f6;
+  }
+  
+  details > p {
+    max-width: 650px;
+    color: #AEB9C6;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: .1px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+  }
+  
+  hr {
+    color: #313133;
+    margin-block: 20px;
+  }
+
+  .faqque{
+    font-size: 125%;
+  }
+
+details{
+    margin-top: 4%;
 }

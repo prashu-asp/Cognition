@@ -398,7 +398,7 @@ transition: all 0.3s;
     justify-item: space-between;
     align-items: center;
     margin-bottom: 0px;
-    
+      
   }
   
   summary::marker {
@@ -703,6 +703,9 @@ details{
     font-size: 18px;
     
     }
+    .faq-section{
+        width: 650px;
+    }
 }
 
 
@@ -752,6 +755,14 @@ details{
 
     font-size: 18px;
     
+    }
+
+    .faq-section{
+        width: 550px;
+    }
+
+    .faqque{
+        font-size:115%;
     }
 }
 
@@ -803,6 +814,15 @@ details{
     font-size: 15px;
     
     }
+
+    .faq-section{
+        width: 450px;
+    }
+
+    
+    .faqque{
+        font-size:110%;
+    }
 }
 
 
@@ -852,6 +872,14 @@ details{
 
     font-size: 15px;
     
+    }
+
+    .faq-section{
+        width: 450px;
+    }
+
+    .faqque{
+        font-size:105%;
     }
 }
 
@@ -915,6 +943,14 @@ details{
     font-size: 15px;
     
     }
+
+    .faq-section{
+        width: 365px;
+    }
+
+    .faqque{
+        font-size:95%;
+    }
 }
 
 
@@ -954,11 +990,91 @@ details{
     .prizedes{
         font-size: 25px;
     }
+
+    .faq-section{
+        width: 335px;
+    }
+
+    .faqque{
+        font-size:85%;
+    }
 }
 
 
 
 @media (max-width:400px) and (min-width:300px) {
+    .faq-section{
+        width: 285px;
+    }
+
+    .faqque{
+        font-size:75%;
+    }
+
+    .track1, .track2, .track3, .track4 {
+        
+        width: 60%;
+        height : 340px;
+        margin-top: 5%;
+    }
+    .track1{
+        margin-right: 5%;
+        margin-left: 20%;
+    }
+    
+    .track3{
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+    .track2{
+        margin-right: 5%;
+        margin-left: 20%;
+    }
+    
+    .track4{
+        margin-right: 5%;
+        margin-left: 20%;
+    }
+
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+
+    font-size: 15px;
+    
+    }
+
+    .prizedes{
+        font-size: 25px;
+    }
+
+    .vitmashead{
+        padding-top: 1%;
+    }
+
+    .vitmastext{
+        font-size: 110%;
+        /* text-align: start; */
+    }
+    
+    #vitmasimg{
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    .sastext{
+        font-size: 105%;
+        text-align: start;
+    }
+    #sasimg{
+        margin-top: 14%;
+        margin-left: 20%;
+    }
+    
+    #cogimg{
+        margin-top: 6%;
+        margin-left: 20%;
+    }
+    .cogtext{
+        font-size: 125%;
+    }
     
 }
 

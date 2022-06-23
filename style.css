@@ -339,6 +339,10 @@ transition: all 0.3s;
 
 /* Prizes */
 
+.prizes{
+    margin-top: 25%;
+}
+
 .prizehead{
      text-align: center;
      margin-top: 15%;

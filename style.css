@@ -528,9 +528,11 @@ header{
     width: 400px;
     height: 400px;
     margin: auto;
-    border: 5px solid #ccc;
+    /* border: 5px solid #ccc; */
     border-radius: 8px;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.992);
+    box-shadow: 0 0 7px 7px #d0d0d0;
     
     
   }
@@ -545,7 +547,7 @@ header{
     transform: translateY(-50%);
     text-align: center;
     transition: 0.5s;
-    color: rgb(67, 241, 67);
+    color: rgb(13, 114, 254);
   }
   
   .track1:hover .track1-title ,.track2:hover .track2-title , .track3:hover .track3-title, .track4:hover .track4-title {
@@ -566,7 +568,7 @@ header{
     position: absolute;
     top: 400px;
     opacity: 0.5;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 25px;
     margin-left: 2%;

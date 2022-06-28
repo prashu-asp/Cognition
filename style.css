@@ -641,11 +641,11 @@ header{
     
   }
   
-  header {
+  .faqheader {
     margin-bottom: 70px;
   }
   
-  header > p {
+  .faqheader > p {
     font-size: 22px;
     color: #AEB9C6;
   }
@@ -1354,6 +1354,3 @@ details{
 }
 
 
-.faq-section header{
-    height: 0;
-}

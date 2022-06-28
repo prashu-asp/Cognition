@@ -1354,3 +1354,6 @@ details{
 }
 
 
+.faq-section header{
+    height: 0;
+}
